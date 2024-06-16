@@ -1,7 +1,4 @@
-:root{
-  --principal: #000000;
-  
-}
+
 
 *{
   margin: 0;
@@ -10,18 +7,17 @@
 
 body {
     font-size: 15pt;
-    color: red;
 }
 
-@media (min-width: 300px){
+
 .header{
-  /*display: flex;
+  display: flex;
   justify-content: space-between;
-  align-items: center;*/
+  align-items: center;
   padding: 20px;
   background-color: rgba(0, 0, 0, 0.55)
 }
-}
+
 
 .header h1{
   color: #FFFFFF;
