@@ -12,6 +12,7 @@ body {
     font-size: 15pt;
 }
 
+@media (max-width: 300px){
 .header{
   display: flex;
   justify-content: space-between;
@@ -19,6 +20,8 @@ body {
   padding: 20px;
   background-color: rgba(0, 0, 0, 0.55)
 }
+}
+
 .header h1{
   color: #FFFFFF;
 }
@@ -27,12 +30,4 @@ body {
   text-decoration: none;
   color: #FFFFFF;
   padding: 10px;
-}
-
-@media (max-width: 630px); {
-  .header{
-    display: block;
-    align-items: center;
-    text-align: center;
-  }
 }
