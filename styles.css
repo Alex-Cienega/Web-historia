@@ -29,7 +29,7 @@ body {
   padding: 10px;
 }
 
-@media (min-width: 630px); {
+@media (max-width: 630px); {
   .header{
     display: block;
     align-items: center;
